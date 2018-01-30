@@ -71,3 +71,34 @@
 .navbar a span{
     color:rgb(172, 109, 109);
 }
+
+.event-upcoming,
+.sermon-latest{
+    overflow:auto;
+    width:40%;
+    display:inline;
+    margin:auto;
+    
+}
+
+.event-upcoming{
+    background-color:rgba(255, 255, 255, 0.5);
+    padding:2em;
+}
+
+.event-upcoming h4{
+    color:rgb(0, 10, 121);
+    
+}
+h4 + hr {
+    background-color: rgb(216, 96, 50);
+    border:none;
+    width:80%;
+    height:0.1em;
+}
+.event-upcoming span{
+    color:rgb(216, 96, 50);
+}
+.event-upcoming h5{
+    color:#000000;
+}
