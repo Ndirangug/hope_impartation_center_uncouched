@@ -1,0 +1,69 @@
+﻿.navbar{
+    background-color: rgba(12, 12, 12, 0.56);
+    margin:0;
+    padding:.6em 0 .6em 0;
+}
+
+.navbar a{
+    color:rgb(255, 255, 255);
+}
+#navigation a:focus,
+#navigation a:hover{
+   color:#000000;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus{
+    font-size:1.3em;
+    font-weight:500;
+}
+.jumbotron hr{
+    border:none;
+    height:0.1em;
+    background-color:#000000;  
+}
+.btn-default{
+    background-color:rgba(4, 4, 4, 0.86);
+    color:rgb(255, 255, 255);
+}
+.btn-default:hover,
+.btn-default:focus{
+    background-color:rgba(255, 255, 255, 0.5);
+    color:  rgba(0, 0, 0, 0.84);
+    font-weight:600;
+}
+.jumbotron h4{
+    font-family:'Eras ITC';
+    font-weight:900;
+    text-transform:uppercase;
+    
+}
+.jumbotron-content{
+    background-color:rgba(255, 255, 255, 0.5);
+    padding:3em 2em 3em 2em;
+}
+h3 + hr{
+   
+}
+h4 + hr{
+    
+}
+
+.jumbotron{
+    padding:3em;
+    background:none;
+    
+}
+.jumbotron h1{
+    margin:0.1em;
+    color:#5e5858;
+}
+.jumbotron p{
+    font-size:medium;
+}
+
+#header{
+    background-image:url(../images/pews.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
