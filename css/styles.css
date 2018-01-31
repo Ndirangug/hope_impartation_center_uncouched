@@ -75,9 +75,9 @@
 .event-upcoming,
 .sermon-latest{
     overflow:auto;
-    width:40%;
     display:inline;
     margin:auto;
+   
     
 }
 
@@ -103,11 +103,95 @@
 }
 
 .event-upcoming, .sermon-latest {
-    box-shadow:rgba(4, 4, 4, 0.86) 0 0 10px 10px ;
-}
-.sermon-latest {
-    color: rgb(255, 255, 255);
-    background-color: rgb(216, 96, 50);
-    padding:0.2em;
+    overflow:auto;    
 }
 
+iframe{
+    width:90%;
+    height:12em;
+    margin:auto 5% auto 5%;
+}
+
+.sermon-latest hr{
+   width:90%;
+}
+
+.sermon-latest {
+    background-color: rgb(216, 96, 50);
+    color:rgb(255, 255, 255);
+    
+}
+
+.event-upcoming li{
+    margin-bottom:0.4em;
+}
+
+ul h5{
+    display:inline;
+    padding:0.3em;
+   
+}
+ul .glyphicon{
+    font-size:x-small;
+    padding:0.5em;
+}
+h4 .glyphicon{
+    font-size:1.2em;
+}
+.sermon-box{
+    width:100%;
+}
+
+#aboutUs {
+    background-color: rgba(232, 232, 232, 0.89);
+    margin-top: 1em;
+   
+}
+
+
+.hug-about img{
+    margin-top:10em;
+    width:100%;
+    height:33em;
+}
+
+.bio-about{
+    padding:4em 3em 2em 2em;
+   
+}
+#wordOfTheDay{
+    background-image:url("../images/cross.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    
+}
+
+.tint {
+    background-color: rgba(0, 0, 0, 0.34);
+    padding: 5em;
+}
+
+.tint h4, .tint p{
+    color:rgb(255, 255, 255);
+}
+.tint h4{
+    font-weight:900;
+
+}
+
+.tint blockquote {
+        color: rgb(216, 96, 50);
+}
+.row img{
+    margin:1em auto 1em auto;
+}
+
+.bio-about .row img{
+    height:1.2em;
+    width:1.2em;
+    margin-right:0.2em;
+}
+
+#pastoralTeam{
+    background-color:rgb(27, 25, 25);
+}
