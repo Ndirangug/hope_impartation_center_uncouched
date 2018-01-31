@@ -90,10 +90,9 @@
     color:rgb(0, 10, 121);
     
 }
-h4 + hr {
+.event-upcoming hr {
     background-color: rgb(216, 96, 50);
     border:none;
-    width:80%;
     height:0.1em;
 }
 .event-upcoming span{
@@ -102,3 +101,13 @@ h4 + hr {
 .event-upcoming h5{
     color:#000000;
 }
+
+.event-upcoming, .sermon-latest {
+    box-shadow:rgba(4, 4, 4, 0.86) 0 0 10px 10px ;
+}
+.sermon-latest {
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 96, 50);
+    padding:0.2em;
+}
+
