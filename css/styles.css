@@ -194,4 +194,98 @@ h4 .glyphicon{
 
 #pastoralTeam{
     background-color:rgb(27, 25, 25);
+    padding:2em;
+}
+
+#pastoralTeam  .row img{
+    height:15em;
+}
+
+#blog{
+   padding:1.5em;
+}
+
+#blog h2, #gallery h2{
+    font-weight:900;
+    color:rgb(66, 53, 48);
+}
+
+#blog .item-blog-1 img, #blog .item-blog-1 p{
+    width:90%;
+   
+}
+#blog .item-blog-1 h4{
+color:rgb(178, 84, 48);
+font-weight:700;
+}
+ #blog .item-blog-1 {
+      padding-right: 0.1em;
+      border-right: solid 0.2em rgb(87, 51, 37);
+
+ }
+
+ .blog-item-2-entry img{
+     width:100%;
+ }
+
+.blog-item-2-entry h5 {
+    color: rgb(164, 77, 43);
+    font-weight: 700;
+}
+
+.blog-item-2-entry >  p{
+    font-size:small;
+}
+
+.blog-item-2-entry{
+    padding:1em 2em 1em 2em;
+}
+
+#contact{
+    background-image:url("../images/church.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.map {
+    padding: 2em;
+    border-left: solid 0.2em rgb(130, 53, 24);
+    
+    
+}
+.footer{
+    padding:3em;
+    background-color:rgba(0, 0, 0, 0.62);
+    color:rgb(255, 255, 255);
+}
+
+.map iframe{
+    width:95%;
+    margin: 1.5em auto auto auto;
+    height:auto;
+}
+
+.social {
+    background-color: rgba(0, 0, 0, 0.72);
+    margin-top:1.5em;
+    width:100%;
+    padding:1.5em;
+}
+.social a{
+    padding:1em;
+    font-size:2em;
+    color:#fa5a1d;
+}
+
+.contacts h5{
+    margin-bottom:0.5em;
+    font-size:1.2em;
+}
+
+.contacts .glyphicon{
+    margin-right: 1em;
+}
+
+.feedback-form{
+    padding-right:2em;
 }
